@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:razorpay_flutter/razorpay_flutter.dart';
 import 'package:toast/toast.dart';
 
-class Home extends StatefulWidget {
+class RazorPage extends StatefulWidget {
   @override
-  _HomeState createState() => _HomeState();
+  _RazorPageState createState() => _RazorPageState();
 }
 
-class _HomeState extends State<Home> {
+class _RazorPageState extends State<RazorPage> {
   Razorpay razorpay;
   TextEditingController textEditingController = new TextEditingController();
 
@@ -68,7 +68,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
           centerTitle: true,
-          backgroundColor: Colors.white,
+
           elevation: 0.0,
           title: Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -92,7 +92,7 @@ class _HomeState extends State<Home> {
               height: 12,
             ),
             RaisedButton(
-              color: Colors.blue,
+              color: Colors.deepOrange,
               child: Text(
                 "Donate Now",
                 style: TextStyle(color: Colors.white),
