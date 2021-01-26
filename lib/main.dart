@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Payment',
+      title: 'Paymssent',
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
       ),
